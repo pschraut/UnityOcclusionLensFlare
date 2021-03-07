@@ -1,0 +1,29 @@
+{
+  "name": "com.oddworm.occlusionlensflare",
+  "version": "1.0.0",
+  "displayName": "Occlusion Lens Flare",
+  "description": "The Occlusion Lens Flare package provides the ability to use Unity's builtin Lens Flare Component without Physics.",
+  "unity": "2019.3",
+  "documentationUrl": "https://github.com/pschraut/UnityOcclusionLensFlare",
+  "dependencies": {
+  },
+  "keywords": [
+    "unity",
+    "effect"
+  ],
+  "author": {
+    "name": "Peter Schraut",
+    "url": "http://console-dev.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pschraut/UnityOcclusionLensFlare.git"
+  },
+  "samples": [
+    {
+      "displayName": "Occlusion Lens Flare Sample",
+      "description": "Sample scene illustrating how to setup the Occlusion Lens Flare. The sample requires Unity's Cinemachine Package to be installed.",
+      "path": "Samples~/Occlusion Lens Flare Sample"
+    }
+  ]  
+}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9f16e5c8dd6ce0247b4f32e8dee1d3e8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_OcclusionSun: {instanceID: 0}
+  - m_OcclusionCamera: {instanceID: 0}
+  - m_OcclusionShader: {fileID: 4800000, guid: 0fae17b6bf58d924685797236fe7ffbb, type: 3}
+  - m_WorldCamera: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
