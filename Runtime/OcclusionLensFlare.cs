@@ -67,7 +67,6 @@ namespace Oddworm.Framework
 
             m_OcclusionCamera.enabled = false; // Don't let Unity render the camera, we do this in this Component instead
             m_OcclusionCamera.backgroundColor = new Color(0, 0, 0, 0);
-            m_OcclusionCamera.SetReplacementShader(m_OcclusionShader, "RenderType");
 
             Shader.SetGlobalTexture("_FlareOcclusionTexture", m_OcclusionTexture);
         }
@@ -116,7 +115,7 @@ namespace Oddworm.Framework
             // And finally render the occlusion texture
             m_OcclusionTexture.DiscardContents();
             m_OcclusionCamera.targetTexture = m_OcclusionTexture;
-            m_OcclusionCamera.Render();
+            m_OcclusionCamera.RenderWithShader(m_OcclusionShader, "RenderType");
             m_OcclusionCamera.targetTexture = null;
         }
 
