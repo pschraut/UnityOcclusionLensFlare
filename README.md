@@ -1,6 +1,7 @@
 # Occlusion Lens Flare for Unity
 
 The Occlusion Lens Flare package provides the ability to use Unity's built-in [Lens Flare](https://docs.unity3d.com/Manual/class-LensFlare.html) Component without Physics raycasts.
+It was created to be used with Unity's built-in Render Pipeline.
 
 Please see the following video for a quick introduction,
 [![](http://img.youtube.com/vi/zaN5TLIMcFs/0.jpg)](http://www.youtube.com/watch?v=zaN5TLIMcFs "")
