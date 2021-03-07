@@ -1,6 +1,6 @@
 {
   "name": "com.oddworm.occlusionlensflare",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Occlusion Lens Flare",
   "description": "The Occlusion Lens Flare package provides the ability to use Unity's builtin Lens Flare Component without Physics.",
   "unity": "2019.3",
