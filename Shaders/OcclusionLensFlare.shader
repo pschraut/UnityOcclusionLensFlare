@@ -13,7 +13,7 @@ Shader "Hidden/Occlusion Lens Flare"
         ZWrite Off ZTest Always
         Cull Off
         Blend One One
-        ColorMask RGB // according to unity docs, this can be bad on mobile gpu's https://docs.unity3d.com/Manual/SL-ShaderPerformance.html
+        //ColorMask RGB // according to unity docs, this can be bad on mobile gpu's https://docs.unity3d.com/Manual/SL-ShaderPerformance.html
 
         Pass {
             CGPROGRAM
@@ -55,6 +55,7 @@ Shader "Hidden/Occlusion Lens Flare"
 
                 // sample lowest mipmap from occlusion buffer
                 o.color *= tex2Dlod(_FlareOcclusionTexture, float4(0.5, 0.5, 0, 16)).r;
+                o.color.a = 1;
                 return o;
             }
 
